@@ -34,7 +34,7 @@ __UWAGA!__ Instalacja całego stacku technologicznego od zera może być procese
   - sudo -u postgres psql -d zdwola
   - CREATE EXTENSION postgis;
 - Import dumpa bazy:  sudo -u postgres psql -f dump.sql -d zdwola -p 5432 -U postgres (przykład)
-5. Załączony do repozytorium plik rastrowy z interpolacją dziennych danych o zanieczyszczeniu powietrza należy podpiąć pod wartswę WMS Geoserver w schemacie cite o nazwie pm10_raster: cite:pm10_raster
+5. Załączony do repozytorium plik rastrowy (pm10_raster.tif) z interpolacją dziennych danych o zanieczyszczeniu powietrza należy podpiąć pod wartswę WMS Geoserver w schemacie cite o nazwie pm10_raster: cite:pm10_raster
 6. Jako styl warstwy należy dodać następujący kod znajdujący się w pliku raster_style.sld
 7. W pliku config.conf należy podać odpowiednie parametry bazy danych oraz flask - ip (zapewne localhost, porty, nazwę bazy danych, użytkownika i hasło)
 8. Po skonfigurowaniu części serwerowej aplikacji wystarczy uruchomić plik index.html z folderu frontend
