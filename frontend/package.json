@@ -1,0 +1,52 @@
+{
+    "name": "hackathon_dla_miast",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@rsuite/charts": "^3.2.5",
+        "@rsuite/responsive-nav": "0.0.10",
+        "@testing-library/jest-dom": "^5.11.6",
+        "@testing-library/react": "^11.2.2",
+        "@testing-library/user-event": "^12.2.2",
+        "axios": "^0.21.0",
+        "customize-cra": "^1.0.0",
+        "echarts": "^4.9.0",
+        "leaflet": "^1.7.1",
+        "less": "^3.12.2",
+        "less-loader": "^7.1.0",
+        "react": "^17.0.1",
+        "react-app-rewired": "^2.1.6",
+        "react-dom": "^17.0.1",
+        "react-geocode": "^0.2.2",
+        "react-leaflet": "^3.0.2",
+        "react-scripts": "4.0.0",
+        "react-spring": "^8.0.27",
+        "rsuite": "^4.8.4",
+        "tabletop": "^1.6.3",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-app-rewired eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

@@ -1,0 +1,297 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@media (max-width: 1600px) {
+    .workers {
+        height: 25vh !important;
+    }
+    .charts {
+        height: 22vh !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .house {
+        position: absolute;
+        margin-top: 500px;
+        height: 25vh !important;
+    }
+    .housePollution {
+        position: absolute;
+        margin-top: 500px;
+        height: 25vmin !important;
+        bottom: 5vh !important;
+        right: 5vh !important;
+    }
+
+    .screen1-map {
+        height: 100%;
+        margin-bottom: 500px !important;
+        margin-top: 30px;
+    }
+    .screen2-container {
+        margin-top: 10px;
+        margin-bottom: 400px !important;
+    }
+
+    .workers {
+        height: 16vh !important;
+    }
+    .charts {
+        height: 13vh !important;
+    }
+    .start {
+        display:none;
+    }
+}
+
+@media (max-width: 800px) {
+    .k1 {
+        font-size: 45px !important;
+    }
+    .k2 {
+        font-size: 25px !important;
+    }
+    .finalPage-panel {
+        width: 85% !important;
+        left: 7.5vw !important;
+    }
+    .workers {
+        display: none;
+    }
+    .herb {
+        display: none;
+    }
+    .charts {
+        display: none;
+    }
+    .k2v2 {
+        padding: 0 5vw !important;
+    }
+
+}
+
+.finalPage-panel {
+    width: 50vw;
+    position: relative;
+    margin-top: 50px;
+    left: 25vw;
+    /*transform: translate({-50%, 0%),*/
+}
+
+.workers {
+    height: 30vh;
+    position: absolute;
+    left: 0vh;
+    bottom: 10vh
+}
+
+.charts {
+    height: 30vh;
+    position: absolute;
+    right: 4vh;
+    bottom: 30vh
+}
+
+.herb {
+    position: absolute;
+    height: 30vh;
+    bottom: 5vh;
+    right: 10vh;
+}
+
+.screen1-map {
+    height: 90%;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.screen2-container {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.background {
+    width: 400%;
+    position: absolute;
+    bottom: 0;
+}
+
+.k1 {
+    color: #22577A;
+    font-size: 70px;
+}
+.k2 {
+    color: #22577A;
+    font-size: 30px;
+}
+.k3 {
+    color: white !important;
+    font-size: 25px;
+}
+
+
+.k2v2 {
+    margin-top: 30px;
+    padding: 0 15vw;
+    line-height: 40px;
+}
+
+span.rs-radio-wrapper {
+    top: 20px;
+}
+
+.house {
+    position: absolute;
+    height: 52vmin;
+    bottom: 5vh;
+    left: 8vh;
+}
+
+.houseDimensions {
+    position: absolute;
+    height: 52vmin;
+    bottom: 5vh;
+    left: 8vh;
+}
+
+.start {
+    position: absolute;
+    height: 45vmin;
+    bottom: 2vh;
+    left: 4vh;
+}
+.housePollution {
+    position: absolute;
+    height: 45vmin;
+    bottom: 10vh;
+    right: 5vh;
+}
+
+.house .md {
+
+}
+
+.App-header {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Header-bar {
+    padding-top: 30px;
+    height: 90px;
+    margin: 0 10vw;
+    text-align: left;
+}
+
+.Step-item {
+}
+
+.Parallax-height {
+    height: calc(100% - 90px) !important;
+}
+
+.Btn {
+    z-index: 1000;
+    top: 45vh;
+    position: absolute !important;
+    padding: 0;
+    background: transparent !important;
+}
+
+.Btn:active {
+    background: transparent !important;
+}
+
+.Right-arrow {
+    right: 0;
+}
+
+
+
+.Left-arrow {
+    left: 0;
+}
+
+.Map {
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.MapPollution {
+    height: 45vh;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.MapGrid {
+    height: 45vh;
+    border-radius: 10px;
+}
+
+.Cursor{
+    cursor: pointer
+}
+
+.More{
+    margin-top: 60px;
+    background: #67BF5A !important;
+}
+
+.casualText {
+    font-size: 20px;
+}
+
+.Source{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 250px;
+}
+
+.Year{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.Margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
